@@ -7,7 +7,11 @@ const browserSync = require('browser-sync').create();
 
 function compileSass(done) {
   gulp
+<<<<<<< HEAD
     .src('./scss/footer.scss', { allowEmpty: true })
+=======
+    .src('./scss/footer.scss', { allowEmpty: true })
+>>>>>>> cards
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(autoprefixer())
