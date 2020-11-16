@@ -1,11 +1,74 @@
+.cards {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5rem;
+}
+
+.card {
+  width: 100%;
+  margin-top: 40px;
+  padding: 53px 30px 55px 120px;
+  box-shadow: 2px 2px 8px #f7f7f7, -2px -2px 8px #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+}
+.card--cta {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 165px;
+  padding: 75px 135px 50px 135px;
+  border: 2px solid #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card--reverse {
+  flex-direction: row-reverse;
+}
+.card__text {
+  flex: 1;
+  padding-top: 101px;
+  display: flex;
+  flex-direction: column;
+}
+.card__title {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.card__paragraph {
+  width: 75%;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  font-family: "Open Sans", sans-serif;
+  color: #808d99;
+}
+.card__paragraph--reverse {
+  width: 100%;
+  text-align: left;
+}
+.card__img {
+  flex-basis: 410px;
+}
+.card__img--reverse {
+  margin-right: 150px;
+}
+.card__img img {
+  width: 100%;
+  display: block;
+}
+
 :root {
   --color__primary: hsl(322, 100%, 66%);
   --color__neutral__first: hsl(192, 100%, 96%);
   --color__neutral__second: hsl(192, 100%, 9%);
   --color__neutral__third: hsl(208, 11%, 55%);
-
-  --font__main__opensans: 'Open Sans', sans-serif;
-
+  --font__main__opensans: "Open Sans", sans-serif;
   --padding--till--logo: 150px;
   --section--height: 420px;
 }
@@ -17,7 +80,6 @@
 body {
   margin: 0;
   padding: 0;
-
 }
 
 .container__width1440px {
@@ -32,7 +94,6 @@ a {
 
 /*FOOTER
  */
-
 footer {
   padding: 150px 0 100px 0;
   font-size: 18px;
@@ -48,7 +109,6 @@ footer {
   align-items: center;
 }
 
-
 .flex__style {
   display: flex;
   align-items: baseline;
@@ -60,7 +120,6 @@ footer {
 
 /*FOOTER CONTACT DETAILS
  */
-
 .f__logo {
   padding-bottom: 10px;
 }
@@ -80,7 +139,6 @@ footer {
 
 /*FOOTER MENY
  */
-
 .f__element__meny {
   justify-content: space-between;
   align-self: baseline;
@@ -98,7 +156,6 @@ footer {
 
 /*FOOTER SOCIAL ICONS & COPYRIGHT
  */
-
 .f__element__icons__copyright {
   align-self: baseline;
 }
@@ -134,3 +191,4 @@ footer {
   transform: translate(0px, 190px);
   opacity: 50%;
 }
+/*# sourceMappingURL=main.css.map */
