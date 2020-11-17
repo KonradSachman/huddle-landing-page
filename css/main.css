@@ -1,3 +1,80 @@
+.conteiner {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+header {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page_header .conteiner {
+  width: 1440px;
+  margin: 0 auto;
+}
+.page_header .conteiner .nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100px;
+}
+.page_header .conteiner a {
+  text-decoration: none;
+  margin: auto 0;
+  padding: 15px 55px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 10px #777;
+  font-family: Poppins;
+}
+.page_header .conteiner img {
+  margin-top: 20px;
+}
+.page_header .header_one {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.page_header .header_one .header_two {
+  margin: auto 0;
+}
+.page_header .header_one .header_two {
+  margin-right: 50px;
+}
+.page_header .header_one .header_btm {
+  padding: 15px 50px;
+  background-color: #BB3EAF;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: #ebfbff;
+  font-family: Poppins;
+}
+.page_header .header_one .header_nag-txt {
+  font-family: Poppins, sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+  color: black;
+  line-height: 50px;
+}
+.page_header .header_one .header_txt {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 70px;
+  padding: 10px;
+  color: #808d99;
+  line-height: 25px;
+}
+.page_header .header_one .header_baner {
+  width: 800px;
+  height: 600px;
+}
+
 .cards {
   margin: 0 auto;
   max-width: 1240px;
