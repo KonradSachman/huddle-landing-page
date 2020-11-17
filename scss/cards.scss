@@ -61,3 +61,17 @@
     }
   }
 }
+.btn {
+  font-family: 'Open Sans';
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 20px 65px;
+  border-radius: 30px;
+  box-shadow: 2px 6px 1rem rgba(3, 3, 3, .1);
+
+  &--cta {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+  }
+}

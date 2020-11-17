@@ -63,6 +63,20 @@
   display: block;
 }
 
+.btn {
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 20px 65px;
+  border-radius: 30px;
+  box-shadow: 2px 6px 1rem rgba(3, 3, 3, 0.1);
+}
+.btn--cta {
+  background: #ff52bf;
+  color: #fff;
+}
+
 :root {
   --color__primary: hsl(322, 100%, 66%);
   --color__neutral__first: hsl(192, 100%, 96%);
@@ -100,7 +114,6 @@ footer {
   color: var(--color__neutral__third);
   background: var(--color__neutral__second);
   font-family: var(--font__main__opensans);
-  margin-top: 500px;
 }
 
 .footer__elements {
